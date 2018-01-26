@@ -502,6 +502,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/xiaomi/markw/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/xiaomi/markw/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
+    vendor/xiaomi/markw/proprietary/etc/permissions/qti_libpermissions.xml:system/etc/permissions/qti_libpermissions.xml \
     vendor/xiaomi/markw/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/xiaomi/markw/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
     vendor/xiaomi/markw/proprietary/lib/com.qualcomm.qti.imscmservice@1.0.so:system/lib/com.qualcomm.qti.imscmservice@1.0.so \
@@ -521,6 +522,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/lib/vendor.qti.hardware.iop@1.0.so:system/lib/vendor.qti.hardware.iop@1.0.so \
     vendor/xiaomi/markw/proprietary/lib/vendor.qti.hardware.perf@1.0.so:system/lib/vendor.qti.hardware.perf@1.0.so \
     vendor/xiaomi/markw/proprietary/lib/vendor.qti.imsrtpservice@1.0.so:system/lib/vendor.qti.imsrtpservice@1.0.so \
+    vendor/xiaomi/markw/proprietary/lib/android.hidl.manager@1.0.so:system/lib/android.hidl.manager@1.0.so \
     vendor/xiaomi/markw/proprietary/lib64/com.qualcomm.qti.imscmservice@1.0.so:system/lib64/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/xiaomi/markw/proprietary/lib64/lib-imscamera.so:system/lib64/lib-imscamera.so \
     vendor/xiaomi/markw/proprietary/lib64/lib-imsvideocodec.so:system/lib64/lib-imsvideocodec.so \
@@ -538,6 +540,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/lib64/vendor.qti.hardware.iop@1.0.so:system/lib64/vendor.qti.hardware.iop@1.0.so \
     vendor/xiaomi/markw/proprietary/lib64/vendor.qti.hardware.perf@1.0.so:system/lib64/vendor.qti.hardware.perf@1.0.so \
     vendor/xiaomi/markw/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so \
+    vendor/xiaomi/markw/proprietary/lib64/android.hidl.manager@1.0.so:system/lib64/android.hidl.manager@1.0.so \
     vendor/xiaomi/markw/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
     vendor/xiaomi/markw/proprietary/vendor/bin/btnvtool:system/vendor/bin/btnvtool \
     vendor/xiaomi/markw/proprietary/vendor/bin/cnd:system/vendor/bin/cnd \
