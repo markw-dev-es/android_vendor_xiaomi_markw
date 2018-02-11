@@ -52,6 +52,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/etc/camera/s5k4h8_chromatix.xml:system/etc/camera/s5k4h8_chromatix.xml \
     vendor/xiaomi/markw/proprietary/etc/camera/s5k5e8_chromatix.xml:system/etc/camera/s5k5e8_chromatix.xml \
     vendor/xiaomi/markw/proprietary/etc/camera/sunny_s5k3l8_f3l8yam_chromatix.xml:system/etc/camera/sunny_s5k3l8_f3l8yam_chromatix.xml \
+    vendor/xiaomi/markw/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/xiaomi/markw/proprietary/vendor/lib/libChamomilePA.so:system/vendor/lib/libChamomilePA.so \
     vendor/xiaomi/markw/proprietary/vendor/lib/libchromaflash.so:system/vendor/lib/libchromaflash.so \
     vendor/xiaomi/markw/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
@@ -631,7 +632,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/markw/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
     vendor/xiaomi/markw/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
     vendor/xiaomi/markw/proprietary/vendor/lib/libOmxVideoDSMode.so:system/vendor/lib/libOmxVideoDSMode.so \
-    vendor/xiaomi/markw/proprietary/vendor/lib/libOmxVpp.so:system/vendor/lib/libOmxVpp.so \
+    vendor/xiaomi/markw/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
     vendor/xiaomi/markw/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
     vendor/xiaomi/markw/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/xiaomi/markw/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
